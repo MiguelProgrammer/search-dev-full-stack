@@ -22,18 +22,13 @@
 * Css
 
 <b>API DOCS - OpenAPI</b>
-* Doc img 1 <br><img src="https://i.imgur.com/Skex6Ak.png" width="800">
-* Doc img 2 <br><img src="https://i.imgur.com/FzEZcRt.png" width="800">
-* Doc img 1 <br><img src="https://i.imgur.com/F3UuUQX.png" width="800">
-* Doc img 1 <br><img src="https://i.imgur.com/leVdui4.png" width="800">
-* Doc img 1 <br><img src="https://i.imgur.com/Yu0bda4.png" width="800">
-* Doc img 1 <br><img src="https://i.imgur.com/JDWnGDV.png" width="800">
+* Doc <br><img src="https://i.imgur.com/1lA9WNY.png" width="800">
 
   
   As my work is back-end, even though I have never used it yet, I will use a basic crud with Angular, just to list the services available via rest services, the documentation for the rest services were created via springdoc-openapi, with it it is possible to create the documentation automatically, accessible via uri, and also when creating service documentation in this way, our project receives interfaces created automatically by our yaml file, so it is possible to use a concrete class that is responsible for implementing this interface, for me that I had only acted in the opposite way, creating the controls and then the documentation was very different, today I prefer to work with this concept that when thinking about less is more, this one serves much better.
 
 <b>Called Services Rest on Postman</b>
-
+<img src="https://i.imgur.com/cUIglVC.png" width="800">
 * Create <br><img src="https://i.imgur.com/QmMhhYf.png" width="800">
 * Create Exception <br><img src="https://i.imgur.com/eUXG6GC.png" width="800">
 * Get <br><img src="https://i.imgur.com/ErrisSz.png" width="800">
@@ -45,8 +40,10 @@
 * Delete Exception <br><img src="https://i.imgur.com/iPtqXp6.png" width="800">
 
 <b>BFF Front</b> <br>
-<img src="https://i.imgur.com/s0Pl9ok.png" width="800"><br>
-  Created services <b>list all</b> and <b>Delete</b>
+  * Home <br><img src="https://i.imgur.com/xCln6Lz.png" width="800"><br>
+  * Create <br> <img src="https://i.imgur.com/IJSx4GW.png" width="800"><br>
+  * List <br> <img src="https://i.imgur.com/lLmXJWt.png" width="800"><br>
+  * Update and Delete <br><img src="https://i.imgur.com/XuAxllp.png" width="800"><br>
 
-<b>Back</b> <br>
-<img src="https://i.imgur.com/27AdRr4.png" width="800">
+<b>Back</b> The back-end was created following the best pratices as clean code, clean architecture. Exist improvements to be made with messages more clean, Exception handlers for manager all exceptions in a single place, more validations as bean validations, security with jwt and security in api docs <br>
+<img src="https://i.imgur.com/DxQQttC.png" width="800">
