@@ -1,0 +1,29 @@
+<div class="container" *ngIf="listAnalyst.length > 0, else empytList">
+  <table class="table table-hover tabela">
+    <thead>
+      <tr class="text-center table-primary">
+        <th scope="col">PID</th>
+        <th scope="col">ACTUATION</th>
+        <th scope="col">STACK</th>
+        <th scope="col">ACTION</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="text-center" *ngFor="let analyst of listAnalyst">
+        <th scope="row">{{analyst.pId}}</th>
+        <td>{{analyst.actuation}}</td>
+        <td>{{analyst.stack}}</td>
+        <td class="col-3 text-center">
+          <a class="btn btn-outline-info" (click)="update(analyst.pId)">Update</a>
+          <a class="btn btn-outline-danger" (click)="delete(analyst.pId)" >Delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<ng-template #empytList>
+  <div class="container alert-warning col-md-12">
+    <h2 class="text-center">Internal talent is empty</h2>
+  </div>
+</ng-template>

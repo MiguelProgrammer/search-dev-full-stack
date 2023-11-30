@@ -1,0 +1,28 @@
+.container-fluid {
+  border: solid lightgray 1px;
+  background-color: lightgray;
+  font-size: 130%;
+}
+
+.table {
+  margin-top: 10%;
+  border: solid lightgray 1px;
+  border-radius: 70px;
+}
+
+.name-app {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  margin-right: 10px;
+}
+
+.nav-link{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: slategray;
+}
+
+
+.btn {
+  margin-right: 4%;
+}
+

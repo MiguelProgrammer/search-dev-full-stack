@@ -1,0 +1,13 @@
+.home  {
+  padding: 5%;
+}
+
+p{
+  padding: 2%;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.shadow {
+  background-color: whitesmoke;
+}
