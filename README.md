@@ -40,7 +40,7 @@
 * Delete Exception <br><img src="https://i.imgur.com/iPtqXp6.png" width="800">
 
 <b>BFF Front</b> <br>
-  * Home <br><img src="https://i.imgur.com/xCln6Lz.png" width="800"><br>
+  * Home <br><img src="https://i.imgur.com/nKufV25.png" width="800"><br>
   * Create <br> <img src="https://i.imgur.com/IJSx4GW.png" width="800"><br>
   * List <br> <img src="https://i.imgur.com/lLmXJWt.png" width="800"><br>
   * Update and Delete <br><img src="https://i.imgur.com/XuAxllp.png" width="800"><br>
