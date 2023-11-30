@@ -22,12 +22,7 @@
 * Css
 
 <b>API DOCS - OpenAPI</b>
-* Doc img 1 <br><img src="https://i.imgur.com/Skex6Ak.png" width="800">
-* Doc img 2 <br><img src="https://i.imgur.com/FzEZcRt.png" width="800">
-* Doc img 1 <br><img src="https://i.imgur.com/F3UuUQX.png" width="800">
-* Doc img 1 <br><img src="https://i.imgur.com/leVdui4.png" width="800">
-* Doc img 1 <br><img src="https://i.imgur.com/Yu0bda4.png" width="800">
-* Doc img 1 <br><img src="https://i.imgur.com/JDWnGDV.png" width="800">
+* Doc <br><img src="https://i.imgur.com/1lA9WNY.png" width="800">
 
   
   As my work is back-end, even though I have never used it yet, I will use a basic crud with Angular, just to list the services available via rest services, the documentation for the rest services were created via springdoc-openapi, with it it is possible to create the documentation automatically, accessible via uri, and also when creating service documentation in this way, our project receives interfaces created automatically by our yaml file, so it is possible to use a concrete class that is responsible for implementing this interface, for me that I had only acted in the opposite way, creating the controls and then the documentation was very different, today I prefer to work with this concept that when thinking about less is more, this one serves much better.
