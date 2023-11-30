@@ -28,7 +28,7 @@
   As my work is back-end, even though I have never used it yet, I will use a basic crud with Angular, just to list the services available via rest services, the documentation for the rest services were created via springdoc-openapi, with it it is possible to create the documentation automatically, accessible via uri, and also when creating service documentation in this way, our project receives interfaces created automatically by our yaml file, so it is possible to use a concrete class that is responsible for implementing this interface, for me that I had only acted in the opposite way, creating the controls and then the documentation was very different, today I prefer to work with this concept that when thinking about less is more, this one serves much better.
 
 <b>Called Services Rest on Postman</b>
-
+<img src="https://i.imgur.com/cUIglVC.png" width="800">
 * Create <br><img src="https://i.imgur.com/QmMhhYf.png" width="800">
 * Create Exception <br><img src="https://i.imgur.com/eUXG6GC.png" width="800">
 * Get <br><img src="https://i.imgur.com/ErrisSz.png" width="800">
