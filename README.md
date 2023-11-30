@@ -40,8 +40,10 @@
 * Delete Exception <br><img src="https://i.imgur.com/iPtqXp6.png" width="800">
 
 <b>BFF Front</b> <br>
-<img src="https://i.imgur.com/s0Pl9ok.png" width="800"><br>
-  Created services <b>list all</b> and <b>Delete</b>
+  * Home <br><img src="https://i.imgur.com/xCln6Lz.png" width="800"><br>
+  * Create <br> <img src="https://i.imgur.com/IJSx4GW.png" width="800"><br>
+  * List <br> <img src="https://i.imgur.com/lLmXJWt.png" width="800"><br>
+  * Update and Delete <br><img src="https://i.imgur.com/XuAxllp.png" width="800"><br>
 
-<b>Back</b> <br>
-<img src="https://i.imgur.com/27AdRr4.png" width="800">
+<b>Back</b> The back-end was created following the best pratices as clean code, clean architecture. Exist improvements to be made with messages more clean, Exception handlers for manager all exceptions in a single place, more validations as bean validations, security with jwt and security in api docs <br>
+<img src="https://i.imgur.com/DxQQttC.png" width="800">
