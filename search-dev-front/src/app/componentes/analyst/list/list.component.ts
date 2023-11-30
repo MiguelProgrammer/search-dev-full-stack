@@ -41,7 +41,7 @@ export class ListComponent implements OnInit {
 
   delete(pId: number) {
     this.analystService.delete(pId).subscribe(() => {
-      this.router.navigate(["/home"])
+      this.router.navigate(["/analyst/all"])
     });
   }
 
@@ -51,12 +51,5 @@ export class ListComponent implements OnInit {
     });
   }
 
-  update(pId: number) {
-    this.analystService.getByPid(pId).subscribe((analy) => {
-      this.analyst = analy
-      this.editAnalist = this.analyst
-      console.log(analy)
-      this.router.navigate(["/analyst/create"])
-    })
-  }
+
 }

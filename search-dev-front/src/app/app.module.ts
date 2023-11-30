@@ -11,6 +11,7 @@ import { CreateComponent } from './componentes/analyst/create/create.component';
 import { ListComponent } from './componentes/analyst/list/list.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { FormsModule } from '@angular/forms';
+import { EditComponent } from './componentes/analyst/edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     RodapeComponent,
     CreateComponent,
     ListComponent,
-    HomeComponent
+    HomeComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,

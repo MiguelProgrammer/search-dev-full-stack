@@ -1,0 +1,74 @@
+<div class="container">
+  <form class="form">
+    <div class="align-items-center" *ngIf="analyst">
+      <div class="my-form">
+
+        <div class="col-auto">
+          <label for="pId" class="col-form-label"><strong>PID</strong></label>
+        </div>
+        <div class="col-auto">
+          <input type="number" min="1" minlength="4" id="pid" class="form-control" aria-describedby="PID" name="pId"
+            [(ngModel)]="analyst.pId" placeholder="Number identification dev">{{analyst.pId}}
+        </div>
+        <div class="col-auto">
+          <span id="passwordHelpInline" class="form-text">
+            Must be 4-8 characters long.
+          </span>
+        </div>
+
+        <span></span>
+
+        <div class="col-auto">
+          <label for="datalistOptions" class="col-form-label"><strong>ACTUATION</strong></label>
+        </div>
+        <div class="col-auto">
+          <input min="4" minlength="4" maxlength="20" aria-describedby="actuation" class="form-control" name="actuation"
+            list="datalistOptions" id="actuation"
+            [(ngModel)]="analyst.actuation" placeholder="Actuation, front or back-end">{{analyst.actuation}}
+          <datalist id="datalistOptions">
+            <option value="FRONT">
+            <option value="BACK">
+            <option value="DEVOPS">
+            <option value="SECURITY-INFORMATION">
+          </datalist>
+        </div>
+        <div class="col-auto">
+          <span id="passwordHelpInline" class="form-text">
+            Must be 4-20 characters long.
+          </span>
+        </div>
+
+        <span></span>
+
+        <div class="col-auto">
+          <label for="stack-datalistOptions" class="col-form-label"><strong>STACK</strong></label>
+        </div>
+        <div class="col-auto">
+          <input min="2" minlength="4" maxlength="10" aria-describedby="stack" class="form-control" name="stack"
+            list="stack-datalistOptions" id="stack"
+            [(ngModel)]="analyst.stack" placeholder="Stack, Angular, Java, k8">
+          <datalist id="stack-datalistOptions">
+            <option value="JAVA">
+            <option value="ANGULAR">
+            <option value="K8">
+            <option value="PEN-TEST">
+          </datalist>
+        </div>
+        <div class="col-auto">
+          <span id="passwordHelpInline" class="form-text">
+            Must be 4-20 characters long.
+          </span>
+        </div>
+
+        <div class="container row">
+          <hr>
+          <div class="col-12 text-center">
+            <button (click)="update(analyst.pId)" type="button" class="btn btn-xs btn-primary">Submit</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </form>
+</div>

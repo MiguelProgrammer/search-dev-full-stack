@@ -35,7 +35,6 @@ export class AnalystService {
 
   update(analyst: Analyst): Observable<Analyst> {
     console.log("Method: update")
-    console.log(analyst)
     return this.httpClient.put<Analyst>("/analyst/update", analyst)
   }
 
