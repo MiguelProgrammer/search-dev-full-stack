@@ -7,7 +7,7 @@
 
 <b>Back</b>
 * Spring boot
-* Banco de dados h2
+* Database h2
 * Lombok
 * Swagger-ui
 * Postman
